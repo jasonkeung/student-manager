@@ -14,7 +14,7 @@ public class Error extends JFrame
 		
 		JLabel errorMsg = new JLabel(message);
 		errorMsg.setHorizontalAlignment(SwingConstants.CENTER);
-		errorMsg.setBounds(42, 11, 200, 35);
+		errorMsg.setBounds(15, 11, 250, 35);
 		getContentPane().add(errorMsg);
 		setTitle("Error");
 		
